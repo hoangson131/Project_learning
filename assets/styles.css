@@ -262,6 +262,7 @@ button {
   height: 108px;
   display: flex;
   justify-content: space-between;
+  border-top: 1px solid #CFCFCF;
 }
 
 .df{
@@ -410,7 +411,7 @@ button {
 
 .block--show-follower{
   height: 25px;
-  width: 100%;
+  width: 259px;
   position: relative;
   background: #DFDFDF;
 }
@@ -425,7 +426,7 @@ button {
 
 .block--show-likes{
   height: 25px;
-  width: 100%;
+  width: 259px;
   position: relative;
   background: #DFDFDF;
 }
