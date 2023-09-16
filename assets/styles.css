@@ -28,6 +28,12 @@ button {
   cursor: pointer;
 }
 
+/* ANIMATE */
+@keyframes animate1 {
+  from { width: 0px;}
+  to { width: 180px;}
+}
+
 
 .f14-fw400 {
   font-size: 14px;
@@ -161,11 +167,19 @@ button {
   justify-content: center;
   align-items: center;
   gap: 10px;
-  width: 162px; 
-  height: 44px; 
+  width: 162px;
+  height: 44px;
   padding: 20px 40px;
   background-color: #4360f6;
   color: #fff;
+}
+
+.btn-primary:hover{
+  background-color: #354ecf;
+}
+
+.btn-icon{
+  padding: 20px 20px;
 }
 
 .btn-sign {
@@ -262,6 +276,7 @@ button {
   height: 108px;
   display: flex;
   justify-content: space-between;
+  border-top: 1px solid #CFCFCF;
 }
 
 .df{
@@ -410,7 +425,7 @@ button {
 
 .block--show-follower{
   height: 25px;
-  width: 100%;
+  width: 259px;
   position: relative;
   background: #DFDFDF;
 }
@@ -421,11 +436,14 @@ button {
   width: 180px;
   height: 100%;
   background: #2CABC7;
+  animation-name: animate1;
+  animation-duration: 1s;
+
 }
 
 .block--show-likes{
   height: 25px;
-  width: 100%;
+  width: 259px;
   position: relative;
   background: #DFDFDF;
 }
@@ -436,7 +454,10 @@ button {
   width: 180px;
   height: 100%;
   background: #4360F6;
+  animation-name: animate1;
+  animation-duration: 1s;
 }
+
 
 /* QUESTION BLOCK*/
 .wrapper--question{
@@ -554,6 +575,10 @@ button {
     background-color: #EB6856;
     color: #fff;
     cursor: pointer;
+}
+
+.btn--subs:hover{
+  background-color: #e35340;
 }
 
 
